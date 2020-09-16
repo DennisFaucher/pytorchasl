@@ -67,6 +67,6 @@ $ make -j$(nproc)
 $ sudo make install
 $ sudo ldconfig
 ````
-  
+Once everything in jetson-inference is built, you can use the compiled imagenet program to test your model against my [input video](https://github.com/DennisFaucher/pytorchasl/blob/master/asl_val.avi).
 ## Thank You
 
