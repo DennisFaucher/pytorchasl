@@ -1,7 +1,7 @@
-# Teaching Jetson Nano to Recognize American Sign Language with PyTorch
+# Recognizing American Sign Language with PyTorch
 
 ## Why
-NVIDIA had recently written up [instructions](https://github.com/dusty-nv/jetson-inference/blob/master/docs/pytorch-collect.md) on how to train models on the Nano rather than in DIGITS on x86. Also, my daughter is President of the ASL club at her school.
+NVIDIA had recently written up [instructions](https://github.com/dusty-nv/jetson-inference/blob/master/docs/pytorch-collect.md) on how to train models on the Jetson Nano rather than in DIGITS on x86. Also, my daughter is President of the ASL club at her school.
 
 ## Quick Demo Video
 Demo Video: https://youtu.be/enyho_JCdhg
