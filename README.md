@@ -67,6 +67,13 @@ $ make -j$(nproc)
 $ sudo make install
 $ sudo ldconfig
 ````
-Once everything in jetson-inference is built, you can use the compiled imagenet program to test your model against my [input video](https://github.com/DennisFaucher/pytorchasl/blob/master/asl_val.avi).
-## Thank You
+Once everything in jetson-inference is built, you can use the compiled imagenet program to test your model against my [input video](https://github.com/DennisFaucher/pytorchasl/blob/master/asl_val.avi). Change the paths below to match your paths.
+````[bash]
+$ export PATH=$PATH:/home/dennis/external/jetson-inference/build/aarch64/bin
+$ export DATASET=/home/dennis/external/sign-language-alphabet-recognizer/dataset
+imagenet --model=./asl_model/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt asl_val.avi
+````
+If everything went well, you should get a video window with the recognized ASL letter and the confidence level overlayed.
 
+## Thank You
+Thank you for taking the time to read these instructions. Please let me know if the instructions need improvement. Thank you.
