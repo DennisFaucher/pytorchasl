@@ -1,12 +1,12 @@
-#Teaching Jetson Nano to Recognize American Sign Language with PyTorch
+# Teaching Jetson Nano to Recognize American Sign Language with PyTorch
 
-##Why
+## Why
 NVIDIA had recently written up [instructions](https://github.com/dusty-nv/jetson-inference/blob/master/docs/pytorch-collect.md) on how to train models on the Nano rather than in DIGITS on x86. Also, my daughter is President of the ASL club at her school.
 
-##Quick Demo Video
+## Quick Demo Video
 Demo Video: https://youtu.be/enyho_JCdhg
 
-##Requirements
+## Requirements
 Google Home
 VMware installation. I used VMware Parallels, but vSphere could just as easily be used.
 IFTTT
