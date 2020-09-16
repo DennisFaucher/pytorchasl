@@ -25,32 +25,8 @@ git clone https://github.com/loicmarie/sign-language-alphabet-recognizer.git
 git clone https://github.com/dusty-nv/jetson-inference.git
 ````
 (You should really read the entire ReadMe and build all the machine learning tools from source, but for this project, we just need to clone the repository.)
-
+### Split the ASL Data into Train, Test, & Val Folders
+Use my [split.py](https://github.com/DennisFaucher/pytorchasl/blob/master/split.py) script for this. Just change line 7 to the parent directory of all the ASL data on your computer.
 
 ## Thank You
-VMware installation. I used VMware Parallels, but vSphere could just as easily be used.
-IFTTT
-DropBox
-Keyboard Maestro for Mac (www.keyboardmaestro.com)
-How
-Connect IFTTT to Google Assistant and DropBox
-Follow the instructions at these links: https://ifttt.com/google_assistant & https://ifttt.com/dropbox
 
-Create Google Assistant Skill in IFFTT
-I created 4 Applets in IFTTT - Clone, Start, Stop, Enter. They are all pretty identical
-
-Click Explore and the click + to create a new applet
-
-You will see "If + This Then That"
-
-Click on "+ This"
-
-Search for "assistant" and then click Google Assitant
-
-Click "Say a phrase with a text ingredient"
-
-This is how I filled out my Google Assitant step for the Clone VM applet.
-
-Google Step
-
-Click "Create Trigger"
