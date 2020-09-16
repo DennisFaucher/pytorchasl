@@ -37,7 +37,10 @@ $ mkdir asl_model
 ````[bash]
 $ cd jetson-inference/python/training/classification
 $ python3 train.py --model-dir=<PATH-TO-YOUR-MODEL-DIR> <PATH-TO-YOUR-DATASET>
-(The training will run for 35 epochs as a default. After each epoch you should see the accuracy at 1(00%) confidence and at 5(0%) confidence increase.)
+
+(The training will run for 35 epochs as a default. After each epoch you should see the accuracy at 
+1(00%) confidence and at 5(0%) confidence increase.)
+
 Epoch: [0] completed, elapsed time 1016.668 seconds (16 minutes. 16*30=480/60=8 hours. 11 AM - 7 PM.
 Test: [1670/1679]	Time  0.038 ( 0.035)	Loss 9.4062e-03 (8.0129e-01)	Acc@1 100.00 ( 73.59)	Acc@5 100.00 ( 96.40)
  * Acc@1 73.716 Acc@5 96.418
