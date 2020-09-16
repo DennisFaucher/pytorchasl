@@ -47,6 +47,13 @@ Test: [1670/1679]	Time  0.038 ( 0.035)	Loss 9.4062e-03 (8.0129e-01)	Acc@1 100.00
 saved best model to:  ./asl_model/model_best.pth.tar
 
 ````
+### Convert Your Tensorflow Model to an ONNX Model
+````[bash]
+$ python3 onnx_export.py --model-dir=<PATH-TO-YOUR-MODEL-DIR>
+model exported to:  ./asl_model/resnet18.onnx
+````
 
+### Test 
+  
 ## Thank You
 
