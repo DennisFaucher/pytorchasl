@@ -14,6 +14,12 @@ Demo Video: https://youtu.be/z7-9uf8hzfg
 * NVIDIA PyTorch Training [Instructions](https://github.com/dusty-nv/jetson-inference/blob/master/docs/pytorch-collect.md)
 
 ## How
+### Install JetPack on your Jetson Nano or Xavier
+Follow the instructions on the JetPack page above
+### Pull a Copy of the ASL Trianing images
+````[bash]
+git clone https://github.com/loicmarie/sign-language-alphabet-recognizer.git
+````
 
 ## Thank You
 VMware installation. I used VMware Parallels, but vSphere could just as easily be used.
