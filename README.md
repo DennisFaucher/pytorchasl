@@ -53,7 +53,20 @@ $ python3 onnx_export.py --model-dir=<PATH-TO-YOUR-MODEL-DIR>
 model exported to:  ./asl_model/resnet18.onnx
 ````
 
-### Test 
+### Test Your Model
+Since I am lousy at ASL, I created a video of all the validation images as input to the NVIDIA compiled imagenet program from jetson-inference. You will need to build everything in jetson-inference first using these [instructions](https://github.com/dusty-nv/jetson-inference/blob/master/docs/building-repo-2.md) 
+````[bash]
+$ sudo apt-get update
+$ sudo apt-get install git cmake libpython3-dev python3-numpy
+$ git clone --recursive https://github.com/dusty-nv/jetson-inference
+$ cd jetson-inference
+$ mkdir build
+$ cd build
+$ cmake ../
+$ make -j$(nproc)
+$ sudo make install
+$ sudo ldconfig
+````
   
 ## Thank You
 
