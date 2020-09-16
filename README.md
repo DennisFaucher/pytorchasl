@@ -7,7 +7,14 @@ NVIDIA had recently written up [instructions](https://github.com/dusty-nv/jetson
 Demo Video: https://youtu.be/enyho_JCdhg
 
 ## Requirements
-Google Home
+* NVIDIA Jetson [Nano](https://developer.nvidia.com/embedded/jetson-nano-developer-kit) or [Xavier](https://developer.nvidia.com/embedded/jetson-agx-xavier-developer-kit)
+* NVIDIA JetPack OS
+* ASL Images for Training
+* NVIDIA PyTorch Training [Instructions](https://github.com/dusty-nv/jetson-inference/blob/master/docs/pytorch-collect.md)
+
+## How
+
+## Thank You
 VMware installation. I used VMware Parallels, but vSphere could just as easily be used.
 IFTTT
 DropBox
