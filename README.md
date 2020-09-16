@@ -9,7 +9,7 @@ Demo Video: https://youtu.be/z7-9uf8hzfg
 
 ## Requirements
 * NVIDIA Jetson [Nano](https://developer.nvidia.com/embedded/jetson-nano-developer-kit) or [Xavier](https://developer.nvidia.com/embedded/jetson-agx-xavier-developer-kit)
-* NVIDIA JetPack OS
+* NVIDIA [JetPack OS](https://developer.nvidia.com/embedded/jetpack)
 * ASL Images for Training
 * NVIDIA PyTorch Training [Instructions](https://github.com/dusty-nv/jetson-inference/blob/master/docs/pytorch-collect.md)
 
