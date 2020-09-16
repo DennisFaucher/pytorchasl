@@ -16,10 +16,16 @@ Demo Video: https://youtu.be/z7-9uf8hzfg
 ## How
 ### Install JetPack on your Jetson Nano or Xavier
 Follow the instructions on the JetPack page above
-### Pull a Copy of the ASL Trianing images
+### Clone a Copy of the ASL Training images
 ````[bash]
 git clone https://github.com/loicmarie/sign-language-alphabet-recognizer.git
 ````
+### Clone a Copy of the NVIDIA Jetson-Inference Code Including PyTorch
+````[bash]
+git clone https://github.com/dusty-nv/jetson-inference.git
+````
+(You should really read the entire ReadMe and build all the machine learning tools from source, but for this project, we just need to clone the repository.)
+
 
 ## Thank You
 VMware installation. I used VMware Parallels, but vSphere could just as easily be used.
