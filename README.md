@@ -27,6 +27,7 @@ git clone https://github.com/dusty-nv/jetson-inference.git
 (You should really read the entire ReadMe and build all the machine learning tools from source, but for this project, we just need to clone the repository.)
 ### Split the ASL Data into Train, Test, & Val Folders
 Use my [split.py](https://github.com/DennisFaucher/pytorchasl/blob/master/split.py) script for this. Just change line 7 to the parent directory of all the ASL data on your computer.
-
+### Create a labels.txt File
+Or just use [mine](https://github.com/DennisFaucher/pytorchasl/blob/master/labels.txt)
 ## Thank You
 
