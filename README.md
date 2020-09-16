@@ -5,7 +5,7 @@
 NVIDIA had recently written up [instructions](https://github.com/dusty-nv/jetson-inference/blob/master/docs/pytorch-collect.md) on how to train models on the Jetson Nano rather than in DIGITS on x86. Also, my daughter is President of the ASL club at her school.
 
 ## Quick Demo Video
-Demo Video: https://youtu.be/enyho_JCdhg
+Demo Video: https://youtu.be/z7-9uf8hzfg
 
 ## Requirements
 * NVIDIA Jetson [Nano](https://developer.nvidia.com/embedded/jetson-nano-developer-kit) or [Xavier](https://developer.nvidia.com/embedded/jetson-agx-xavier-developer-kit)
