@@ -1,4 +1,5 @@
 # Recognizing American Sign Language with PyTorch
+![ASL Video Frame](https://github.com/DennisFaucher/pytorchasl/blob/master/images/ASL%20Recognition.png)
 
 ## Why
 NVIDIA had recently written up [instructions](https://github.com/dusty-nv/jetson-inference/blob/master/docs/pytorch-collect.md) on how to train models on the Jetson Nano rather than in DIGITS on x86. Also, my daughter is President of the ASL club at her school.
